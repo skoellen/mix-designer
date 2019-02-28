@@ -10,5 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
 }
