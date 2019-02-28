@@ -1,0 +1,14 @@
+{
+    "name": "skoellen/mix-designer",
+    "description": "Basic scaffolding for a laravel mix ready app",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephan Köllen",
+            "email": "stephan.koellen@korono.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
