@@ -1,0 +1,30 @@
+{
+  "name": "mix-designer",
+  "version": "1.0.0",
+  "description": "Basic scaffolding for a laravel mix ready app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": ["Laravel", "Laravel Mix", "Standalone"],
+  "author": "Stephan Köllen",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^5.1",
+    "false": "^0.0.4",
+    "laravel-mix": "^4.0.14",
+    "resolve-url-loader": "2.3.1",
+    "sass": "^1.17.2",
+    "sass-loader": "7.*",
+    "vue-template-compiler": "^2.6.7"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "bootstrap-sass": "^3.4.1"
+  }
+}
