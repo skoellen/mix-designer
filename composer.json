@@ -9,7 +9,6 @@
             "email": "stephan.koellen@korono.de"
         }
     ],
-    "minimum-stability": "dev",
     "require": {},
     "config": {
         "preferred-install": "dist",
