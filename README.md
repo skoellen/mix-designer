@@ -11,7 +11,7 @@ Your work should be easily transgerable to a Laravel App and its frontend.
 You can install the mix designer for a new project with:
 
 ```bash
-composer create-project skoellen/mix-designer new-project --remove-vcs -sdev
+composer create-project skoellen/mix-designer new-project
 ```
 
 Install dependencies with
