@@ -4,11 +4,11 @@ Mix designer is a scaffolding project in order to get started with asset compila
 
 You can install it, start writing styles with preprocessors like Sass or Less or use it to combine your javascript.
 
-Your work should be easily transgerable to a Laravel App and its frontend.
+Your work should be easily transferable to a Laravel App and its frontend.
 
 # Installation
 
-You can install the mix designer for a new project with:
+You can install the Mix Designer for a new project with:
 
 ```bash
 composer create-project skoellen/mix-designer new-project
@@ -28,7 +28,7 @@ In order to collaborate with Mix designer you can add your own git repository an
 
 Mix designer is basically scaffolded on top of [Laravel Mix](https://github.com/JeffreyWay/laravel-mix).
 
-Use the api of laravel mix and customize Mix Designer structure to your needs.
+Use the api of Laravel Mix and customize Mix Designer structure to your needs.
 
 # License
 
