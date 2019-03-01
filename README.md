@@ -1,4 +1,6 @@
-> Under development and mainly for internal use. At least for now no additional features or immediate bug fixes are planned! However you can use this for your design development if you see fit :)
+> Under development and mainly for internal use. At least for now **no** additional features or immediate bug fixes are planned! However you can use this for your design development if you see fit :)
+
+> Version 1 is not tagged yet. So Installation needs -sdev option.
 
 Mix designer is a scaffolding project in order to get started with asset compilation and model bundling right away.
 
