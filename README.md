@@ -1,4 +1,4 @@
-> Under development and mainly for internal use. At least for now **no** additional features or immediate bug fixes are planned! However you can use this for your design development if you see fit :)
+> WIP: Under development and mainly for internal use. At least for now **no** additional features or immediate bug fixes are planned! However you can use this for your design development if you see fit :)
 
 > Version 1 is not tagged yet. So Installation needs -sdev option.
 
