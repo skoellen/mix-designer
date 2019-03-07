@@ -1,3 +1,5 @@
+# Mix Designer - For building your frontend
+
 Mix Designer is a static micro project _for development_ with simplest routing, templates and modern asset management.
 
 This scaffolding is our way of quickly _getting something real_ during frontend development. You can develop within the project and transfer your emerging Javascript, Sass (or Less etc.) files and also your Blade templates to your next Laravel project with ease. 
