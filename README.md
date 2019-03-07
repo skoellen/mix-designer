@@ -1,12 +1,19 @@
-> WIP: Under development and mainly for internal use. At least for now **no** additional features or immediate bug fixes are planned! However you can use this for your design development if you see fit :)
+Mix Designer is a static micro project _for development_ with simplest routing, templates and modern asset management.
 
-> Version 1 is not tagged yet. So Installation needs -sdev option.
+This scaffolding is our way of quickly _getting something real_ during frontend development. You can develop within the project and transfer your emerging Javascript, Sass (or Less etc.) files and also your Blade templates to your next Laravel project with ease. 
 
-Mix designer is a scaffolding project in order to get started with asset compilation and model bundling right away.
+For frontend development we wanted to simplify installation and setup even more, but don't miss the features we are already working with.
 
-You can install it, start writing styles with preprocessors like Sass or Less or use it to combine your javascript.
+1. Install Mix designer with composer
+2. Install npm dependencies
+3. Register your routes in `routes.yaml`
+4. Get started with your assets in `resources/` and with `webpack.mix.js`
 
-Your work should be easily transferable to a Laravel App and its frontend.
+**Includes**
+
+* [Laravel Mix](https://github.com/JeffreyWay/laravel-mix)
+* [Blade standalone](https://github.com/jenssegers/blade)
+* Symfony components for routing, http, yaml loading
 
 # Installation
 
@@ -28,9 +35,34 @@ In order to collaborate with Mix designer you can add your own git repository an
 
 # Usage
 
-Mix designer is basically scaffolded on top of [Laravel Mix](https://github.com/JeffreyWay/laravel-mix).
+Mix designer uses [Laravel Mix](https://github.com/JeffreyWay/laravel-mix) for asset management.
 
 Use the api of Laravel Mix and customize Mix Designer structure to your needs.
+
+## Some commands to run mix
+
+```bash
+
+# Asset compilation in development mode
+npm run dev
+
+# Watch files for changes and run compilation
+npm run watch
+
+# Compile files for production
+npm run production
+```
+
+## Example
+
+You can put your Sass `app.scss` file inside of `resources/sass/`. Within your `webpack.mix.js`:
+
+```javascript
+// ...
+mix.sass('src/sass/app.scss', 'public/css/');
+```
+
+This will basically get your sass file and compile it into a browser ready css file `public/css/app.css` and can be included in your templates.
 
 # License
 
