@@ -11,7 +11,11 @@
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
-  "keywords": ["Laravel", "Laravel Mix", "Standalone"],
+  "keywords": [
+    "Laravel",
+    "Laravel Mix",
+    "Standalone"
+  ],
   "author": "Stephan Köllen",
   "license": "MIT",
   "devDependencies": {
